@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.20)
+project(cmake-super-basic)
+add_executable(cmake-super-basic main.cpp)
+target_link_libraries(cmake-super-basic fmt)
